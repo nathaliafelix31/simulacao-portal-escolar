@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <link rel ="shortcut icon" href="/img/sme.png">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link type="text/css" rel="stylesheet" href="/css/style.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05c604f0f4.js" crossorigin="anonymous"></script>
+    <script src="/js/progressbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="/home" class="navbar-brand">
+                <img id="logo" src="/img/sme.png" alt="Secretaria Municipal de Educação"> Secretaria Municipal de Educação
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex justify-content-end mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Escolas de Ensino Fundamental
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/ensinoFundamental/amerindoBezerra/inicio">EM Amerindo Bezerra</a></li>
+                            <li><a class="dropdown-item" href="/ensinoFundamental/carmemMaria/inicio">EM Carmem Maria Andrade Nogueira</a></li>
+                            <li><a class="dropdown-item" href="/ensinoFundamental/ameliaPacheco/inicio">EM Dona Amélia Pacheco</a></li>
+                            <li><a class="dropdown-item" href="/ensinoFundamental/noemeSales/inicio">EM Noeme Sales Nascimento</a></li>
+                            <li><a class="dropdown-item" href="/ensinoFundamental/osorioEvangelista/inicio">EM Osório Evangelista dos Santos</a></li>
+                            <li><a class="dropdown-item" href="/ensinoFundamental/diogoFeijo/inicio">EM Padre Diogo Feijó</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Escolas de Educação Infantil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/educacaoInfantil/angelaMaria/inicio">CEMEI -  Ângela Maria</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/gilmaLeao/inicio">CEMEI -  Gilma Leão de Souza</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/sementinhaEsperanca/inicio">CEMEI -  Sementinha da Esperança</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/sossegoMamae/inicio">CEMEI -  Sossego da Mamãe</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/ubaldinaAndrade/inicio">CEMEI -  Ubaldina Andrade</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/ruthSeixas/inicio">Creche Municipal Dona Ruth Seixas</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/ameliaPacheco/inicio">Pré-Escolar Municipal Dona Amélia Pacheco</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/sementinhaSaber/inicio">Pré-Escolar Municipal Sementinha do Saber</a></li>
+                            <li><a class="dropdown-item" href="/educacaoInfantil/sonhoInfantil/inicio">Pré-Escolar Municipal Sonho Infantil</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contatos"  >
+                            Contatos
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="hero london parallax">
+
+    <!-- <h3>London </h3> -->
+
+</div>
+
+<div class="page-container">
+
+    <h2>Quem Somos</h2>
+
+    <p>
+         is the capital of and largest city in England and the United Kingdom,
+        with the largest municipal population in the European Union.
+        Standing on the River Thames in the south-east of England, at the head of its
+        50-mile (80 km) estuary leading to the North Sea, London has been a major settlement
+        for two millennia.
+
+    </p>
+
+    <p>
+        London is considered to be one of the world's most important global
+        cities and has been termed the world's most powerful, most desirable,
+        most influential, most visited, most expensive, innovative, sustainable,
+        most investment friendly, most popular for work, and the most vegetarian-friendly
+        city in the world.
+    </p>
+
+</div>
+
+<div class="hero amsterdam parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>Nossa Missão</h2>
+
+    <p>
+         As the commercial capital of the Netherlands and one of the top financial
+        centres in Europe, Amsterdam is considered an alpha- world city by the Globalization
+        and World Cities (GaWC) study group. The city is also the cultural capital of the
+        Netherlands. Many large Dutch institutions have their headquarters there,
+        including Philips, AkzoNobel, TomTom and ING.
+    </p>
+    <p>
+        Amsterdam fans out south from the Amsterdam Centraal railway station
+        and Damrak, the main street off the station. The oldest area of the town
+        is known as De Wallen (English: "The Quays"). It lies to the east of Damrak
+        and contains the city's famous red light district. To the south of De Wallen
+        is the old Jewish quarter of Waterlooplein.
+    </p>
+
+</div>
+
+<div class="hero paris parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>Nossos Trabalhos</h2>
+
+    <p>
+        is the capital and most populous city of France, with an area of 105 square
+        kilometres (41 square miles) and an official estimated population of 2,140,526
+        residents as of 1 January 2019. Since the 17th century, Paris has been one of
+        Europe's major centres of finance, diplomacy, commerce, fashion, science, and the arts.
+    </p>
+    <p>
+        According to the Economist Intelligence Unit
+        Worldwide Cost of Living Survey in 2018, Paris was the second most expensive city in
+        the world, after Singapore, and ahead of Zürich, Hong Kong, Oslo and Geneva.
+    </p>
+
+</div>
+
+<div class="hero porto parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>mais</h2>
+
+    <p>
+         in English traditionally Oporto, is the second-largest city in Portugal
+        after Lisbon and one of Iberian Peninsula major urban areas. It has a population of 287,591
+        and the metropolitan area of Porto, which extends beyond the administrative limits of
+        the city, has a population of 2.3 million (2011) in an area of 2,395 km2
+        (925 sq mi), making it the second-largest urban area in Portugal.
+    </p>
+    <p>
+        Port wine, one of Portugal's most famous exports, is named after Porto,
+        since the metropolitan area, and in particular the cellars of Vila Nova de Gaia,
+        were responsible for the packaging, transport, and export of fortified wine.
+    </p>
+
+
+</div>
+
+<div class="hero madrid parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>teste</h2>
+
+    <p>
+        locally is the capital and most populous city of Spain. The city has almost
+        3.3 million inhabitants and a metropolitan area population of approximately 6.5 million.
+    </p>
+    <p>
+        It is the third-largest city in the European Union (EU), surpassed only by London and Berlin,
+        and its monocentric metropolitan area is the third-largest in the EU, smaller only than those
+        of London and Paris. The municipality covers 604.3 km2.
+    </p>
+
+</div>
+
+<div class="hero berlin parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>exemplo</h2>
+    <p>
+        is the capital and largest city of Germany by both area and population.
+        Its 3,748,148 (2018) inhabitants make it the second most populous city proper
+        of the European Union after London. The city is one of Germany's 16 federal states.
+        It is surrounded by the state of Brandenburg, and contiguous with Potsdam, Brandenburg's
+        capital.
+    </p>
+    <p>
+        Berlin is a world city of culture, politics, media and science. Its economy is based
+        on high-tech firms and the service sector, encompassing a diverse range of creative
+        industries, research facilities, media corporations and convention venues.
+    </p>
+
+</div>
+
+<div class="hero veneza parallax">
+
+</div>
+
+<div class="page-container">
+
+    <h2>Venice</h2>
+
+    <p>
+        Venice is a city in northeastern Italy and the capital of the Veneto region.
+        It is situated on a group of 118 small islands that are separated by canals and
+        linked by over 400 bridges.
+    </p>
+    <p>
+        Venice has been known as "La Dominante", "La Serenissima", "Queen of the Adriatic",
+        "City of Water", "City of Masks", "City of Bridges", "The Floating City", and
+        "City of Canals". The lagoon and a part of the city are listed as a UNESCO World
+        Heritage Site. Parts of Venice are renowned for the beauty of their settings, their
+        architecture, and artwork.
+    </p>
+
+</div>
+
+</body>
+</html>

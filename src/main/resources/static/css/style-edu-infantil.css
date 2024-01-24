@@ -1,0 +1,28 @@
+.nav-title{
+    margin-left: 15px;
+}
+
+.main-title{
+    margin-top:15px;
+}
+
+.collapse .btn{
+    color: #FFF !important;
+}
+
+.card-wrapper, p{
+    margin-top: 15px !important;
+}
+
+p{
+    text-align: justify;
+
+}
+
+.carousel-item img{
+    height: 500px !important;
+}
+
+.alert{
+    margin-bottom:0;
+}
